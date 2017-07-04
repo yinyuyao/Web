@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dd,input,select,option,button{margin: 0;padding: 0;}
+ul,ol,li{list-style: none;}
+a{text-decoration: none;}
+img,input,option,select,textarea,button{border: none;}
+body{font-family: "Arial Rounded MT Bold"}
+.floor1{background: url(../images/GTR.jpg) no-repeat 0px 0px;background-size: cover;height: 700px;opacity: 0.7;width: 100%}
+.floor1 h2{text-align: center;color: #fff;font-size: 60px;line-height: 118px;height: 118px;}
+.floor1 .name{width: 682px;height: 190px;background: rgba(96,156,207,.7);font-size: 65px;color: #fff;text-align: center;padding-top: 20px;margin: 242px 0 0 141px;transition: transform 1s;}
+.floor1 .name:hover{transform: scale(1.2)}
+.floor1 .text{width: 570px;height: 55px;background: rgba(107,132,158,.7);font-size: 24px;color: #fff;text-align: center;line-height: 55px;margin: 28px 0 0 141px;}
+.floor2{background: #ffc907;position: relative;height: 621px}
+.floor2 img{cursor: pointer;position: absolute;top:0;left: 50%;}
+.floor2 h2{line-height: 249px;height: 249px;color: #fff;font-size: 58px;text-align: center;}
+.floor2 .p{font-size: 30px;color: #fff;font-weight: bold;cursor: pointer;}
+.floor2 #css1{position: absolute;top:230px;left: 322px;}
+.floor2 #html1{position: absolute;top:230px;left: 605px;}
+.floor2 #jq1{position: absolute;top:230px;left: 900px;}
+.floor2 #js1{position: absolute;top:230px;left: 1170px;}
+.floor2 #photoshop1{position: absolute;top:230px;left: 1465px;}
+.floor2 #css{position: absolute;left:250px; top:300px;z-index: 100;}
+.floor2 #html{position: absolute;left:550px; top:300px;}
+.floor2 #jq{position: absolute;left:850px; top:300px;}
+.floor2 #js{position: absolute;left:1150px; top:300px;}
+.floor2 #photoshop{position: absolute;left:1450px; top:300px;}
+.floor3{height: 787px;background: #e05d6f;}
+.floor3 .inner{width: 1142px;margin: 0 auto;}
+.floor3 h2{color: #fff;font-size: 58px;text-align: center;line-height: 168px;height: 168px;padding-top: 20px;}
+.floor3 .news{width: 332px;height: 221px;text-align: center;color: #fff;float: left;margin:0 47px 42px 0;}
+.floor3 img{transition: transform 2s;}
+.floor3 img:hover{transform: scale(1.2) rotate(720deg)}
+.floor3 .news h4{line-height: 55px;height: 55px;font-size: 21px;padding-top: 3px;}
+.floor3 .news a{font-size: 13px;line-height: 25px;color: #fff;}
+.floor3 .news a:hover{color: #609bcf;}
+.floor4{height: 765px;background: #418bca;text-align: center;position: relative;}
+.floor4 h2{color: #fff;padding-top: 14px;font-size: 58px;line-height: 181px;height: 181px;}
+.floor4 .center{position:absolute; left:0; top:0; right:0; bottom:0; margin:auto;width: 596px;height: 400px;transform-style: preserve-3d;perspective:2000px;}
+.floor4 .center .item{width: 100%;height: 100%;position: absolute;left: 0; top:0;transition: transform 1s;}
+.floor6{height: 779px;background: #16a085;position: relative;}
+.floor6 h2{color: #fff;font-size: 58px;text-align: center;line-height: 168px;height: 168px;padding-top: 20px;}
+.floor6 .inner{width: 1140px; margin: 0 auto;}
+.floor6 .mid{width: 255px;height: 228px;background: #000;color: #fff;position: relative;margin: 0 auto;}
+.floor6 .mid ul{padding: 38px 0 0 75px;}
+.floor6 .mid ul li{font-size: 15px;line-height: 27px;}
+.floor6 .mid ul li i{display:block;width: 18px;height: 18px;background: url("../images/spr.png") no-repeat;}
+.floor6 .mid .add{position: absolute;top:42px;left: 50px;background-position: -7px -5px;}
+.floor6 .mid .iphone{position: absolute;top:69px;left: 50px;background-position: -7px -32px;}
+.floor6 .mid .email{position: absolute;top:97px;left: 50px;background-position: -7px -66px;}
+.floor6 .mid ol{margin: 28px 0 0 13px;}
+.floor6 .mid ol li{float: left;width: 32px; height: 32px;display: block;margin-right: 9px;background: url("../images/img-sprite.png") no-repeat;}
+.floor6 .mid .one{background-position: -116px 0}
+.floor6 .mid .one:hover{background-position: -116px -44px}
+.floor6 .mid .two{background-position: 0 0}
+.floor6 .mid .two:hover{background-position: 0 -44px;}
+.floor6 .mid .three{background-position: -38px 0}
+.floor6 .mid .three:hover{background-position: -38px -44px}
+.floor6 .mid .four{background-position: -78px 0}
+.floor6 .mid .four:hover{background-position: -78px -44px;}
+.floor6 .bot{  margin-top:52px;height: 310px;width: 541px;}
+.floor6 .bot .b_left{float: left;margin-right: 29px;}
+.floor6 .bot .b_left input{width: 521px;height: 61px;margin-bottom: 20px;font-size:20px;line-height: 61px;color: #888;padding-left: 20px}
+.floor6 .bot .b_right{width: 572px;height: 212px;position: absolute;bottom: 99px;right: 340px;}
+.floor6 .bot .b_right textarea{width: 550px;height: 133px;padding: 20px 0 0 20px;font-size:20px;color: #888;font-weight: bold;}
+.floor6 .bot .b_right button{width: 130px;height: 50px;background: #000;color: #fff;font-size: 15px;line-height: 50px;margin-top: 10px;font-weight:bold;transition: transform 1s;}
+.floor6 .bot .b_right button:hover{transform: scale(1.2);background: #fff;color: #000;font-size: 17px}
+.up{position: fixed;bottom: 20px;right: 20px;}
+
+
+
+
+
+
+
